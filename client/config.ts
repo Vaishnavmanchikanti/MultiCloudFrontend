@@ -1,1 +1,1 @@
-export const VITE_BASE_URL = "https://multicloud.jobsvedika.in/";
+export const VITE_BASE_URL = "https://multicloud.jobsvedika.in";
