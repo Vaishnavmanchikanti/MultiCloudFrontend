@@ -34,7 +34,7 @@ export default function RegistrationForm() {
     const handlebrochure=()=>{
       window.open(Brochure, '_blank')
     }
-
+console.log(`${VITE_BASE_URL}/send-email/`)
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
